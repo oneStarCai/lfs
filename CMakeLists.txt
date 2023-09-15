@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.12)
 # --------------------------------------------------------------
 #  build 'lfs' module
 # --------------------------------------------------------------
@@ -16,7 +17,7 @@ add_subdirectory(vendor)
 # --------------------------------------------------------------
 #  install                                     
 # --------------------------------------------------------------
-install(DIRECTORY lib
-  DESTINATION ${LUBYK_LIB}
-)
+#install(DIRECTORY lib
+#  DESTINATION ${LUBYK_LIB}
+#)
 

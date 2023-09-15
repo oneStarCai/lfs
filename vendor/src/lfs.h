@@ -13,5 +13,6 @@
 #define chdir_error	strerror(errno)
 #endif
 
+#define luaL_reg      luaL_Reg
 
 int luaopen_lfs (lua_State *L);

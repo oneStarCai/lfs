@@ -4,7 +4,8 @@ local tmp = "/tmp"
 local sep = "/"
 local upper = ".."
 
-require"lfs"
+--package.cpath = "./?.so"
+local lfs = require "lfs"
 print (lfs._VERSION)
 
 function attrdir (path)
